@@ -1,0 +1,36 @@
+.container-libros{
+    background-color: green;
+    h2{
+        font-size: 2em;
+        color: #9B3E15;
+        padding: 5px;
+        margin: 15px;
+    }
+    .form{
+        display: flex;
+        align-items: center;
+
+    }
+    .container-libros-img{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px;
+        .container-book{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            a{
+                img{
+                    width: 7em;
+                }
+                
+            }
+            p{
+                color: black;
+                padding: 5px;
+                margin: 5px;
+            }
+        }
+    }
+}
