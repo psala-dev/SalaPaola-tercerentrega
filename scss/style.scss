@@ -1,5 +1,29 @@
+// reset
 @import "base/reset";
+
+// header
 @import "layouts/header";
+
+// carousel
 @import "layouts/carousel";
+
+// seccion nosotros
 @import "layouts/section-nos";
+
+// seccion libros
 @import "layouts/section-books";
+
+// seccion cafe
+@import "layouts/section-cafe";
+
+// seccion tienda
+@import "layouts/section-tienda";
+
+// seccion contactanos
+@import "layouts/section-contacto";
+
+// footer
+@import "layouts/footer";
+
+// botones
+@import "components/botones"

@@ -1,4 +1,4 @@
-.container-libros{
+.container-tienda{
     h2{
         font-size: 2em;
         color: #9B3E15;
@@ -28,19 +28,19 @@
             }
         }
     }
-    .container-libros-img{
+    .container-tienda-img{
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
         align-items: center;
         padding: 15px;
-        .container-book{
+        .container-shop{
             display: flex;
             flex-direction: column;
             text-align: center;
             a{
                 img{
-                    width: 7em;
+                    width: 5em;
                 }
                 
             }

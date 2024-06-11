@@ -1,10 +1,14 @@
-// .playfair-display-<uniquifier>{
-//     font-family: "Playfair Display", serif;
-//     font-optical-sizing: auto;
-//     font-weight: <weight>;
-//     font-style: normal;
-// }
+// RESET
 
+// font
+/*.playfair-display-<uniquifier>{
+font-family: "Playfair Display", serif;
+font-optical-sizing: auto;
+font-weight: <weight>;
+font-style: normal;
+}*/
+
+// univeral
 *{
     font-family: "Playfair Display", serif;
     font-size: 13px; 
@@ -13,6 +17,11 @@
     padding: 0;
 }
 
+// body
 body{
+    // background-image: url(../../assets/grouppexels-viktoria-alipatova.jpg);
+    // background-repeat: no-repeat;
+    // background-size: 100%;
+    // background-attachment: fixed;
     background-color: #FFFCF4;
 }
