@@ -26,4 +26,10 @@
 @import "layouts/footer";
 
 // botones
-@import "components/botones"
+@import "components/botones";
+
+// mixins
+@import "utilities/mixins";
+
+// mobile
+@import "media-queries/mobile";

@@ -15,9 +15,14 @@
             display: flex;
             flex-direction: column;
             text-align: center;
+            transition: 5seg;
+       
             a{
                 img{
                     width: 7em;
+                    &:hover{
+                        transform: rotate(360deg);
+                        }   
                 }
                 
             }

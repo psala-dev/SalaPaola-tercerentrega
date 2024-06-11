@@ -8,25 +8,6 @@
     .form{
         display: flex;
         align-items: center;
-        .boton{
-            background-color: #cd9c31;
-            width: 15%;
-            display: relative;
-            justify-content: space-between;
-            margin: 5px 15px;
-            padding: 4px 35px;
-            border: 2px solid #cd9c31;
-            border-radius: 5px;
-            font-weight: 500;
-            transition: 1s;
-            &:hover{
-                color: #9B3E15;
-                font-weight: 700;
-            }
-            &:focus{
-                border: 2px solid #9B3E15;
-            }
-        }
     }
     .container-libros-img{
         display: flex;
