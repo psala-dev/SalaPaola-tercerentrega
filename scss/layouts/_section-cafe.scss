@@ -1,0 +1,36 @@
+.container-cafe{
+    h2{
+        font-size: 2em;
+        color: #9B3E15;
+        padding: 5px;
+        margin: 15px;
+    }
+    .container-cafe-img{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        padding: 15px;
+        .container-coffee{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            transition: 5seg;
+       
+            a{
+                img{
+                    width: 7em;
+                    &:hover{
+                        transform: rotate(360deg);
+                        }   
+                }
+                
+            }
+            p{
+                color: black;
+                padding: 5px;
+                margin: 5px;
+            }
+        }    
+    }
+}

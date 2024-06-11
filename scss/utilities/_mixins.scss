@@ -1,0 +1,13 @@
+@mixin cafe($background,$padding,$border-r,$font-w){
+    background-color: $background;
+    padding: $padding;
+    border-radius: $border-r;
+    font-weight: $font-w;
+}
+
+.container-cafe-img{
+    .cafe{
+        @include cafe(#FCE5DB,10px,15px,500);    
+    }
+}
+
